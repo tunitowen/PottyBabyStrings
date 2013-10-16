@@ -62,7 +62,7 @@
     <string name="settings">Impostazioni</string>
     <string name="date">DATA</string>
     <string name="isDueToGoOnThePotty">E' ora del vasino per %1$s</string> <!-- variable = childs name. alert saying child needs to go on the potty -->
-    <string name="hoursMinsFormatted">%1$sore %2$sminuti</string> <!-- English example: 1hrs 50mins -->
+    <string name="hoursMinsFormatted">%1$sh %2$smin</string> <!-- English example: 1hrs 50mins -->
     <string name="wee">PIPI'</string> <!-- Child term for urinatiom. Translaion needs to be child friendly -->
     <string name="poo">CACCA</string> <!-- Child term for defication. Translaion needs to be child friendly -->
     <string name="both">ENTRAMBI</string> <!-- both urination and defication -->
