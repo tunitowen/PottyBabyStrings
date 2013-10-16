@@ -12,8 +12,8 @@
     <string name="lastReminder">ULTIMO PROMEMORIA</string> <!-- header: a date time will be shown underneath -->
     <string name="recentHeader">ATTIVITA' RECENTI</string> <!-- header: list of potty activity will show underneath -->
     <string name="more">ALTRE</string> <!-- button: takes user to a full history of potty activities -->
-    <string name="childsName">NOME DEL BAMBINO/A</string> <!-- EditText hint in child setup -->
-    <string name="addAChild">Aggiungi un bambino/a</string> <!-- List item to add a new child -->
+    <string name="childsName">NOME DEL BAMBINO</string> <!-- EditText hint in child setup -->
+    <string name="addAChild">Aggiungi un bambino</string> <!-- List item to add a new child -->
     <string name="actions">AZIONI</string> <!-- Nav Drawer header -->
     <string name="howManyPottys">Quante volte il vasino oggi?</string> <!-- Potty Stars title text -->
     <string name="endTimeCannotBeBefore">L'ora di fine deve essere successiva a quella di inizio</string> <!-- Error when trying to add date time before now -->
