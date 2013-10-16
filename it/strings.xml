@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Potty Baby</string> <!-- no transaltion needed -->
+    <string name="today">SOLO OGGI</string> <!-- action bar item - to show event for just today -->
+    <string name="all">TUTTI I GIORNI</string> <!-- action bar item - to show event for all time -->
+    <string name="itemdeleted">Voce cancellata</string> <!-- swipe to delete, advising item deleted -->
+    <string name="taptoundo">Annulla</string> <!-- swipe to delete, press to undo deletion -->
+    <string name="draweropen">Drawer Open</string> <!-- no transaltion needed -->
+    <string name="drawerclosed">Drawer Closed</string> <!-- no transaltion needed -->
+    <string name="noChildrenAdded">Non hai inserito nessun bambimo. Clicca qui per iniziare</string>
+    <string name="nextReminder">PROSSIMO PROMEMORIA</string> <!-- header: a date time will be shown underneath -->
+    <string name="lastReminder">ULTIMO PROMEMORIA</string> <!-- header: a date time will be shown underneath -->
+    <string name="recentHeader">ATTIVITA' RECENTI</string> <!-- header: list of potty activity will show underneath -->
+    <string name="more">ALTRE</string> <!-- button: takes user to a full history of potty activities -->
+    <string name="childsName">NOME DEL BAMBINO</string> <!-- EditText hint in child setup -->
+    <string name="addAChild">Aggiungi un bambino</string> <!-- List item to add a new child -->
+    <string name="actions">AZIONI</string> <!-- Nav Drawer header -->
+    <string name="howManyPottys">Quante volte il vasino oggi?</string> <!-- Potty Stars title text -->
+    <string name="endTimeCannotBeBefore">L'ora di fine deve essere successiva a quella di inizio</string> <!-- Error when trying to add date time before now -->
+    <string name="reminder">Nuovo promemoria?</string> <!-- AlertDialog title for a new reminder / alarm -->
+    <string name="reminderDialogText">Vuoi schedulare un nuovo promemoria per %1$s</string> <!-- variable = childs name -->
+    <string name="yes">Si</string>
+    <string name="no">No</string>
+    <string name="setReminderFor">Imposta un promemoria per %1$s</string> <!-- variable = childs name -->
+    <!-- child has an interval in minutes, ask parent to use this or set manually -->
+        <string name="setReminderDialogMessage">Imposta un promemoria automaticamente usando le impostazioni per %1$s, o manualmente</string> <!-- variable = childs name -->
+    <string name="automatically">Automatico</string>
+    <string name="manually">Manuale</string>
+    <string name="pottyIsDueFor">E' ora del vasino per %1$s</string> <!-- variable = childs name -->
+    <string name="paused">IN PAUSA</string>
+    <string name="nothingYet">Nessuna attività</string> <!-- empty recent section on main activity -->
+    <string name="newReminderMustBeInTheFuture">Il nuovo promemoria deve essere nel futuro</string> <!-- error if new reminder is not greater than now -->
+    <string name="upgrading">Aggiornamento</string> <!-- dialog title if upgrading from old version -->
+    <!-- explains all previous data entered for a child, will be used for this child -->
+        <string name="allPreviousData">Tutti i dati precedenti verranno aggiunti a questo bambino, per favore completa questo breve setup</string>
+    <string name="ok">OK</string>
+    <string name="selectSound">Seleziona il suono</string> <!-- notification sound choice dialog title -->
+    <string name="changedInterval">Intervallo modificato</string> <!-- alert header: interval has changed for child -->
+    <string name="doYouWantToKeepReminder">Vuoi impostare un nuovo promemoria adesso? o vuoi mantenere quello esistente</string>
+    <string name="newText">Nuovo</string>
+    <string name="keepExisting">Mantengo quello esistente</string>
+    <string name="childIncomplete">I dati del bambino non sono completi</string> <!-- error: not completed required field in child creaion -->
+    <string name="deleteDialogTitle">Cancella %1$s</string> <!-- variable = childs name -->
+    <string name="deleteDialogMessage">Sei sicuro di voler cancellare i dati di questo bambino?</string> <!-- alert: when deleting child -->
+    <string name="potty">VASINO</string> <!-- English name for small toilet, used for small children -->
+    <string name="time">ORA</string>
+    <string name="outcome">ESITO</string> <!-- Outcome of the potty: wee, poo, both, nothing -->
+    <string name="askedPrompted">CHIESTO / RICORDATO</string> <!-- list item header: Did you ask your child, or did they ask you -->
+    <string name="timeFrom">ORA INIZIALE</string>
+    <string name="timeTo">ORA FINALE</string>
+    <string name="name">NOME</string>
+    <string name="color">COLORE</string>
+    <string name="howOften">QUANTO SPESSO</string> <!-- list item header: for interval. How often in minutes -->
+    <string name="from">DA</string>
+    <string name="to">A</string>
+    <string name="notificationSound">SUONO DELLA NOTIFICA</string>
+    <string name="defaultNotification">Notifica standard</string>
+    <string name="children">BAMBINO/A</string>
+    <string name="setNewReminder">Nuovo promemoria</string> <!-- Nav Drawer item: to set a new reminder for the child -->
+    <string name="pauseResume">Pausa / Riprendi</string> <!-- Nav Drawer item: to pause / resume notifications for the child -->
+    <string name="pottyStars">Stellette</string> <!-- Nav Drawer item: probably hard to translate. child gets a star for doing something in potty -->
+    <string name="settings">Impostazioni</string>
+    <string name="date">DATA</string>
+    <string name="isDueToGoOnThePotty">E' ora del vasino per %1$s</string> <!-- variable = childs name. alert saying child needs to go on the potty -->
+    <string name="hoursMinsFormatted">%1$sore %2$sminuti</string> <!-- English example: 1hrs 50mins -->
+    <string name="wee">PIPI'</string> <!-- Child term for urinatiom. Translaion needs to be child friendly -->
+    <string name="poo">CACCA</string> <!-- Child term for defication. Translaion needs to be child friendly -->
+    <string name="both">ENTRAMBI</string> <!-- both urination and defication -->
+    <string name="nothing">NIENTE</string> <!-- Child didn't do anything -->
+    <string name="dry">ASCITTO</string> <!-- Child did not urinate / deficate in bed -->
+    <string name="theyAsked">Ha chiesto il bambino</string> <!-- The child asked the parent -->
+    <string name="youAsked">Ho ricordato io</string> <!-- The parent asked the child -->
+    <string name="accident">INCIDENTE</string> <!-- The child urinated / deficated in clothes -->
+    <string name="nap">RIPOSINO</string> <!-- a small sleep during the day -->
+    <string name="night">NOTTE</string> <!-- the child's sleep duing the night -->
+</resources>
