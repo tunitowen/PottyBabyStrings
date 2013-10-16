@@ -1,0 +1,7 @@
+Potty Baby is designed to help parents potty train their child.
+
+It will alert you at intervals (defined by yourself) when you child should use the potty. You can also log accidents and naps in the app.
+
+The app keeps a record of all potty activity, accidents and naps so you can see how your child is progressing.
+
+The app requires internet permissions for adverts alone.
